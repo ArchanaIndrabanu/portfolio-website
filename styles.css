@@ -1,0 +1,87 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('C:\\Users\\Admin\\Pictures\\background.png');
+    background-size: cover;
+    background-attachment: fixed;
+    color: #333;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.9); 
+    color: #333;
+    padding: 20px 0;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #ffcc00;
+}
+
+section {
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 900px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+#about, #certifications, #achievement {
+    margin-bottom: 40px;
+}
+
+table.education-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border: 1px solid #333; 
+}
+
+.education-table th, .education-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #333; /* Add borders to each cell */
+}
+
+.education-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.education-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+footer {
+    background-color: rgba(255, 255, 255, 0.9); 
+    color: #333;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+}
